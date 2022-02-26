@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="422.0000000000001" y="962.0">dataModel.Scheduler</node>
+    <node x="0.0" y="672.0">strategyPattern.SelectionPolicy</node>
+    <node x="359.4530092592594" y="568.0">strategyPattern.Strategy</node>
+    <node x="754.4312500000001" y="808.0">graphicalUserInterface.View</node>
+    <node x="776.108101851852" y="1576.0">graphicalUserInterface.Controller</node>
+    <node x="234.0000000000001" y="683.0">strategyPattern.ConcreteStrategyTime</node>
+    <node x="507.8488425925927" y="0.0">dataModel.Client</node>
+    <node x="554.0664351851852" y="1296.0">dataModel.SimulationManager</node>
+    <node x="808.358101851852" y="1656.0">dataModel.Main</node>
+    <node x="449.1914351851853" y="300.0">dataModel.Queue</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="strategyPattern.ConcreteStrategyTime" target="dataModel.Queue">
+      <point x="0.0" y="-27.0" />
+      <point x="354.0000000000001" y="647.0" />
+      <point x="344.4530092592594" y="647.0" />
+      <point x="344.4530092592594" y="548.0" />
+      <point x="469.27476851851867" y="548.0" />
+      <point x="-100.41666666666663" y="104.0" />
+    </edge>
+    <edge source="dataModel.SimulationManager" target="dataModel.Scheduler">
+      <point x="-81.5625" y="-115.0" />
+      <point x="603.0039351851852" y="1276.0" />
+      <point x="605.7500000000001" y="1276.0" />
+      <point x="61.25" y="60.0" />
+    </edge>
+    <edge source="strategyPattern.Strategy" target="dataModel.Client">
+      <point x="-60.0" y="-27.0" />
+      <point x="419.4530092592594" y="538.0" />
+      <point x="402.6914351851853" y="538.0" />
+      <point x="402.6914351851853" y="270.0" />
+      <point x="571.2863425925927" y="270.0" />
+      <point x="-38.0625" y="115.0" />
+    </edge>
+    <edge source="dataModel.SimulationManager" target="graphicalUserInterface.View">
+      <point x="114.1875" y="-115.0" />
+      <point x="798.7539351851854" y="1276.0" />
+      <point x="811.4312500000001" y="1276.0" />
+      <point x="-57.0" y="214.0" />
+    </edge>
+    <edge source="dataModel.Scheduler" target="strategyPattern.Strategy">
+      <point x="0.0" y="-60.0" />
+      <point x="544.5000000000001" y="788.0" />
+      <point x="539.4530092592594" y="788.0" />
+      <point x="60.0" y="27.0" />
+    </edge>
+    <edge source="dataModel.SimulationManager" target="dataModel.Client">
+      <point x="-16.3125" y="-115.0" />
+      <point x="668.2539351851852" y="1266.0" />
+      <point x="707.0250000000001" y="1266.0" />
+      <point x="707.0250000000001" y="280.0" />
+      <point x="647.4113425925927" y="280.0" />
+      <point x="38.0625" y="115.0" />
+    </edge>
+    <edge source="graphicalUserInterface.Controller" target="graphicalUserInterface.View">
+      <point x="0.0" y="-15.0" />
+      <point x="840.108101851852" y="1551.0" />
+      <point x="862.9312500000001" y="1551.0" />
+      <point x="862.9312500000001" y="1276.0" />
+      <point x="849.4312500000001" y="1276.0" />
+      <point x="-19.0" y="214.0" />
+    </edge>
+    <edge source="strategyPattern.ConcreteStrategyTime" target="strategyPattern.Strategy">
+      <point x="80.0" y="-27.0" />
+      <point x="434.0000000000001" y="647.0" />
+      <point x="419.4530092592594" y="647.0" />
+      <point x="-60.0" y="27.0" />
+    </edge>
+    <edge source="dataModel.Scheduler" target="dataModel.Client">
+      <point x="-70.0" y="-60.0" />
+      <point x="474.5000000000001" y="778.0" />
+      <point x="223.5000000000001" y="778.0" />
+      <point x="223.5000000000001" y="250.0" />
+      <point x="520.5363425925927" y="250.0" />
+      <point x="-88.8125" y="115.0" />
+    </edge>
+    <edge source="dataModel.Scheduler" target="strategyPattern.ConcreteStrategyTime">
+      <point x="-35.0" y="-60.0" />
+      <point x="509.5000000000001" y="768.0" />
+      <point x="354.0000000000001" y="768.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="dataModel.Main" target="graphicalUserInterface.Controller">
+      <point x="-18.625" y="-27.0" />
+      <point x="864.233101851852" y="1631.0" />
+      <point x="872.108101851852" y="1631.0" />
+      <point x="32.0" y="15.0" />
+    </edge>
+    <edge source="dataModel.Scheduler" target="strategyPattern.SelectionPolicy">
+      <point x="-105.0" y="-60.0" />
+      <point x="439.5000000000001" y="788.0" />
+      <point x="106.5" y="788.0" />
+      <point x="0.0" y="38.0" />
+    </edge>
+    <edge source="dataModel.Queue" target="dataModel.Client">
+      <point x="60.25" y="-104.0" />
+      <point x="629.9414351851854" y="280.0" />
+      <point x="622.0363425925927" y="280.0" />
+      <point x="12.6875" y="115.0" />
+    </edge>
+    <edge source="graphicalUserInterface.Controller" target="dataModel.SimulationManager">
+      <point x="-42.66666666666663" y="-15.0" />
+      <point x="797.4414351851854" y="1551.0" />
+      <point x="684.5664351851852" y="1551.0" />
+      <point x="0.0" y="115.0" />
+    </edge>
+    <edge source="dataModel.Main" target="graphicalUserInterface.View">
+      <point x="18.625" y="-27.0" />
+      <point x="901.483101851852" y="1631.0" />
+      <point x="922.0363425925927" y="1631.0" />
+      <point x="922.0363425925927" y="1276.0" />
+      <point x="925.4312500000001" y="1276.0" />
+      <point x="57.0" y="214.0" />
+    </edge>
+    <edge source="strategyPattern.ConcreteStrategyTime" target="dataModel.Client">
+      <point x="-80.0" y="-27.0" />
+      <point x="274.0000000000001" y="647.0" />
+      <point x="321.19143518518524" y="647.0" />
+      <point x="321.19143518518524" y="260.0" />
+      <point x="545.9113425925927" y="260.0" />
+      <point x="-63.4375" y="115.0" />
+    </edge>
+    <edge source="dataModel.Scheduler" target="dataModel.Queue">
+      <point x="35.0" y="-60.0" />
+      <point x="579.5000000000001" y="778.0" />
+      <point x="624.7030092592594" y="778.0" />
+      <point x="624.7030092592594" y="548.0" />
+      <point x="549.608101851852" y="548.0" />
+      <point x="-20.083333333333314" y="104.0" />
+    </edge>
+    <edge source="dataModel.SimulationManager" target="dataModel.Queue">
+      <point x="-48.9375" y="-115.0" />
+      <point x="635.6289351851852" y="1256.0" />
+      <point x="677.5000000000001" y="1256.0" />
+      <point x="677.5000000000001" y="548.0" />
+      <point x="670.1081018518519" y="548.0" />
+      <point x="100.41666666666663" y="104.0" />
+    </edge>
+    <edge source="strategyPattern.Strategy" target="dataModel.Queue">
+      <point x="60.0" y="-27.0" />
+      <point x="539.4530092592594" y="548.0" />
+      <point x="509.4414351851853" y="548.0" />
+      <point x="-60.25" y="104.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="260.0" y="119.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

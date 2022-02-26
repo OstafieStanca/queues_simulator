@@ -1,0 +1,169 @@
+
+Time 0
+Waiting clients: ( 1 , 2 , 3) ;( 3 , 2 , 3) ;( 2 , 9 , 2) ;( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 1
+Waiting clients: ( 1 , 2 , 3) ;( 3 , 2 , 3) ;( 2 , 9 , 2) ;( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 2
+Waiting clients: ( 2 , 9 , 2) ;( 4 , 28 , 2) ;
+Queue1:
+ (1 , 2 , 3)  ;
+Queue2:
+ (3 , 2 , 3)  ;
+
+Time 3
+Waiting clients: ( 2 , 9 , 2) ;( 4 , 28 , 2) ;
+Queue1:
+ (1 , 2 , 2)  ;
+Queue2:
+ (3 , 2 , 2)  ;
+
+Time 4
+Waiting clients: ( 2 , 9 , 2) ;( 4 , 28 , 2) ;
+Queue1:
+ (1 , 2 , 1)  ;
+Queue2:
+ (3 , 2 , 1)  ;
+
+Time 5
+Waiting clients: ( 2 , 9 , 2) ;( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 6
+Waiting clients: ( 2 , 9 , 2) ;( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 7
+Waiting clients: ( 2 , 9 , 2) ;( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 8
+Waiting clients: ( 2 , 9 , 2) ;( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 9
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1:
+ (2 , 9 , 2)  ;
+Queue2: closed 
+
+Time 10
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1:
+ (2 , 9 , 1)  ;
+Queue2: closed 
+
+Time 11
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 12
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 13
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 14
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 15
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 16
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 17
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 18
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 19
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 20
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 21
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 22
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 23
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 24
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 25
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 26
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 27
+Waiting clients: ( 4 , 28 , 2) ;
+Queue1: closed 
+Queue2: closed 
+
+Time 28
+Waiting clients: 
+Queue1:
+ (4 , 28 , 2)  ;
+Queue2: closed 
+
+Time 29
+Waiting clients: 
+Queue1:
+ (4 , 28 , 1)  ;
+Queue2: closed 
+
+Time 30
+Waiting clients: 
+Queue1: closed 
+Queue2: closed 
+
+Average Waiting Time = 0.0
+Average Service Time = 2.5
+Peek Hour = 2
